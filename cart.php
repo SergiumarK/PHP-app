@@ -1,3 +1,5 @@
 <?php 
 
-require 'cart.view.php';
+
+
+require 'views/cart.view.php';
