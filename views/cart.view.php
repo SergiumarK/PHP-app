@@ -3,7 +3,6 @@
 <?php require 'partials/nav.php' ?>
 
 <?php
-$heading = 'Cart';
 require 'partials/banner.php' 
 ?>
 

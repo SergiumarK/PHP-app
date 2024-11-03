@@ -3,9 +3,8 @@
 <?php require 'partials/nav.php' ?>
 
 <?php
-$heading = 'About Us';
- require 'partials/banner.php'; 
- ?>
+require 'partials/banner.php';
+?>
 
 
 

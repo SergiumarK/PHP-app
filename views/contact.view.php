@@ -3,7 +3,6 @@
 <?php require 'partials/nav.php' ?>
 
 <?php
-$heading = 'Contact Us';
 require 'partials/banner.php' 
 ?>
 

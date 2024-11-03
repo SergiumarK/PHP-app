@@ -11,27 +11,27 @@
 
 <section id="feature" class="section-p1">
     <div class="fe-box">
-        <img src="..././img/features/f1.png" alt="">
+        <img src="./img/features/f1.png" alt="">
         <h6>Free Shopping</h6>
     </div>
     <div class="fe-box">
-        <img src="../img/features/f2.png" alt="">
+        <img src="./img/features/f2.png" alt="">
         <h6>Online Order</h6>
     </div>
     <div class="fe-box">
-        <img src="../img/features/f3.png" alt="">
+        <img src="./img/features/f3.png" alt="">
         <h6>Save Money</h6>
     </div>
     <div class="fe-box">
-        <img src="../img/features/f4.png" alt="">
+        <img src="./img/features/f4.png" alt="">
         <h6>Promotions</h6>
     </div>
     <div class="fe-box">
-        <img src="../img/features/f5.png" alt="">
+        <img src="./img/features/f5.png" alt="">
         <h6>Happy Sell</h6>
     </div>
     <div class="fe-box">
-        <img src="../img/features/f6.png" alt="">
+        <img src="./img/features/f6.png" alt="">
         <h6>F24/7 Support</h6>
     </div>
 </section>
@@ -41,7 +41,7 @@
     <p>Summer Colection New Modern Design</p>
     <div class="pro-container">
         <div class="pro">
-            <img src="../img/products/f1.jpg" alt="">
+            <img src="./img/products/f1.jpg" alt="">
             <div class="des">
                 <span>Lorem.</span>
                 <h5>Lorem ipsum dolor sit.</h5>
@@ -57,7 +57,7 @@
             <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
         </div>
         <div class="pro">
-            <img src="../img/products/f2.jpg" alt="">
+            <img src="./img/products/f2.jpg" alt="">
             <div class="des">
                 <span>Lorem.</span>
                 <h5>Lorem ipsum dolor sit.</h5>
@@ -73,7 +73,7 @@
             <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
         </div>
         <div class="pro">
-            <img src="../img/products/f3.jpg" alt="">
+            <img src="./img/products/f3.jpg" alt="">
             <div class="des">
                 <span>Lorem.</span>
                 <h5>Lorem ipsum dolor sit.</h5>
@@ -89,7 +89,7 @@
             <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
         </div>
         <div class="pro">
-            <img src="../img/products/f4.jpg" alt="">
+            <img src="./img/products/f4.jpg" alt="">
             <div class="des">
                 <span>Lorem.</span>
                 <h5>Lorem ipsum dolor sit.</h5>
@@ -105,7 +105,7 @@
             <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
         </div>
         <div class="pro">
-            <img src="../img/products/f5.jpg" alt="">
+            <img src="./img/products/f5.jpg" alt="">
             <div class="des">
                 <span>Lorem.</span>
                 <h5>Lorem ipsum dolor sit.</h5>
@@ -121,7 +121,7 @@
             <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
         </div>
         <div class="pro">
-            <img src="../img/products/f6.jpg" alt="">
+            <img src="./img/products/f6.jpg" alt="">
             <div class="des">
                 <span>Lorem.</span>
                 <h5>Lorem ipsum dolor sit.</h5>
@@ -137,7 +137,7 @@
             <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
         </div>
         <div class="pro">
-            <img src="../img/products/f7.jpg" alt="">
+            <img src="./img/products/f7.jpg" alt="">
             <div class="des">
                 <span>Lorem.</span>
                 <h5>Lorem ipsum dolor sit.</h5>
@@ -153,7 +153,7 @@
             <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
         </div>
         <div class="pro">
-            <img src="../img/products/f8.jpg" alt="">
+            <img src="./img/products/f8.jpg" alt="">
             <div class="des">
                 <span>Lorem.</span>
                 <h5>Lorem ipsum dolor sit.</h5>
@@ -182,7 +182,7 @@
     <p>Summer Colection New Modern Design</p>
     <div class="pro-container">
         <div class="pro">
-            <img src="../img/products/n1.jpg" alt="">
+            <img src="./img/products/n1.jpg" alt="">
             <div class="des">
                 <span>Lorem.</span>
                 <h5>Lorem ipsum dolor sit.</h5>
@@ -198,7 +198,7 @@
             <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
         </div>
         <div class="pro">
-            <img src="../img/products/n2.jpg" alt="">
+            <img src="./img/products/n2.jpg" alt="">
             <div class="des">
                 <span>Lorem.</span>
                 <h5>Lorem ipsum dolor sit.</h5>
@@ -214,7 +214,7 @@
             <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
         </div>
         <div class="pro">
-            <img src="../img/products/n3.jpg" alt="">
+            <img src="./img/products/n3.jpg" alt="">
             <div class="des">
                 <span>Lorem.</span>
                 <h5>Lorem ipsum dolor sit.</h5>
@@ -230,7 +230,7 @@
             <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
         </div>
         <div class="pro">
-            <img src="../img/products/n4.jpg" alt="">
+            <img src="./img/products/n4.jpg" alt="">
             <div class="des">
                 <span>Lorem.</span>
                 <h5>Lorem ipsum dolor sit.</h5>
@@ -246,7 +246,7 @@
             <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
         </div>
         <div class="pro">
-            <img src="../img/products/n5.jpg" alt="">
+            <img src="./img/products/n5.jpg" alt="">
             <div class="des">
                 <span>Lorem.</span>
                 <h5>Lorem ipsum dolor sit.</h5>
@@ -262,7 +262,7 @@
             <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
         </div>
         <div class="pro">
-            <img src="../img/products/n6.jpg" alt="">
+            <img src="./img/products/n6.jpg" alt="">
             <div class="des">
                 <span>Lorem.</span>
                 <h5>Lorem ipsum dolor sit.</h5>
@@ -278,7 +278,7 @@
             <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
         </div>
         <div class="pro">
-            <img src="../img/products/n7.jpg" alt="">
+            <img src="./img/products/n7.jpg" alt="">
             <div class="des">
                 <span>Lorem.</span>
                 <h5>Lorem ipsum dolor sit.</h5>
@@ -294,7 +294,7 @@
             <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
         </div>
         <div class="pro">
-            <img src="../img/products/n8.jpg" alt="">
+            <img src="./img/products/n8.jpg" alt="">
             <div class="des">
                 <span>Lorem.</span>
                 <h5>Lorem ipsum dolor sit.</h5>
