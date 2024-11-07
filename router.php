@@ -3,6 +3,7 @@
 $uri = parse_url($_SERVER['REQUEST_URI'])['path'];
 
 
+
 $routes = [
     '/Cara/' => 'controllers/index.php',
     '/Cara/about' => 'controllers/about.php',
