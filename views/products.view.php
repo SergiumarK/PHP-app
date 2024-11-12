@@ -3,16 +3,19 @@
 <?php require 'partials/nav.php' ?>
 
 <?php
-require 'partials/banner.php' 
-?>
+require 'partials/banner.php'
+    ?>
 
 <section id="product1" class="section-p1">
     <div class="pro-container">
-        <div class="pro" onclick="window.location.href='sproduct.html'">
-            <img src="../img/products/f1.jpg" alt="">
+    <?php foreach ($products as $product): ?>
+        <div class="pro" onclick="window.location.href=''">
+            <a href="/Cara/product?id=<?= $product['id'] ?>">
+                <img src="<?= $product['img'] ?>" alt="">
+            </a>
             <div class="des">
-                <span>Lorem.</span>
-                <h5>Lorem ipsum dolor sit.</h5>
+                <span><?= $product['title'] ?></span>
+                <h5><?= $product['description'] ?></h5>
                 <div class="star">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -20,10 +23,11 @@ require 'partials/banner.php'
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                 </div>
-                <h4>$78</h4>
+                <h4><?= $product['price'] ?></h4>
             </div>
             <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
         </div>
+        <?php endforeach; ?>
         <div class="pro">
             <img src="../img/products/f2.jpg" alt="">
             <div class="des">

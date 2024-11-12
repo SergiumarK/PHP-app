@@ -40,22 +40,26 @@
     <h2>Featured Products</h2>
     <p>Summer Colection New Modern Design</p>
     <div class="pro-container">
-        <div class="pro">
-            <img src="./img/products/f1.jpg" alt="">
-            <div class="des">
-                <span>Lorem.</span>
-                <h5>Lorem ipsum dolor sit.</h5>
-                <div class="star">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
+        <?php foreach ($products as $product): ?>
+            <div class="pro" onclick="window.location.href=''">
+                <a href="/Cara/product?id=<?= $product['id'] ?>">
+                    <img src="<?= $product['img'] ?>" alt="">
+                </a>
+                <div class="des">
+                    <span><?= $product['title'] ?></span>
+                    <h5><?= $product['description'] ?></h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4><?= $product['price'] ?></h4>
                 </div>
-                <h4>$78</h4>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
             </div>
-            <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-        </div>
+        <?php endforeach; ?>
         <div class="pro">
             <img src="./img/products/f2.jpg" alt="">
             <div class="des">

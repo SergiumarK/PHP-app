@@ -13,6 +13,7 @@ $routes = [
     '/Cara/cart' => 'controllers/cart.php',
     '/Cara/contact' => 'controllers/contact.php',
     '/Cara/products' => 'controllers/products.php',
+    '/Cara/product' => 'controllers/product.php',
 ];
 
 function routeToController($uri, $routes) {
