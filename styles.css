@@ -6,10 +6,8 @@
 }
 
 .not-found {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    display: inline-block;
+    margin-left: 50px;
     font-size: 24px;
     color: #333;
     margin-top: 70px;

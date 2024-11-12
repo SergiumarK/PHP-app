@@ -6,6 +6,7 @@
             <li><a href="/Cara/products" class="<?= urlIs('/Cara/products') ? 'active' : '' ?>">Shop</a></li>
             <li><a href="/Cara/blog" class="<?= urlIs('/Cara/blog') ? 'active' : '' ?>">Blog</a></li>
             <li><a href="/Cara/about" class="<?= urlIs('/Cara/about') ? 'active' : '' ?>">About</a></li>
+            <li><a href="/Cara/notes" class="<?= urlIs('/Cara/notes') ? 'active' : '' ?>">Notes</a></li>
             <li><a href="/Cara/contact" class="<?= urlIs('/Cara/contact') ? 'active' : '' ?>">Contact</a></li>
             <li id="lg-bag"><a href="/Cara/cart" class="<?= urlIs('/Cara/cart') ? 'active' : '' ?>"><i class="fa-solid fa-bag-shopping"></i></a></li>
             <a href="#"><i id="close" class="fa-solid fa-x"></i></a>
