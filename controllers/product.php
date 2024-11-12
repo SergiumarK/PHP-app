@@ -7,15 +7,13 @@ $currentUserId = 1;
 
 $product = $db->query('select * from products where id = :id', [
     'id' => $_GET['id']]
-)->fetch();
+)->findORFail();
 
 if (! $product) {
     abort();
 }
 
-if ($product['user_id'] !== $currentUserId) {
-    abort(Response::FORBIDDEN);
-}
+authorize($product['user_id'] === $currentUserId);
 
 
 

@@ -28,8 +28,8 @@ require 'partials/banner.php';
 
         <div class="single-pro-details">
             <h6><?= $product['title'] ?></h6>
-            <h4>Men's Fashion T-Shirt</h4>
-            <h2>$139.00</h2>
+            <h4><?= $product['description'] ?></h4>
+            <h2><?= $product['price'] ?></h2>
             <select>
                 <option>Select Size</option>
                 <option>XL</option>
