@@ -1,6 +1,6 @@
 <?php
 
-$config = require 'config.php';
+$config = require base_path('config.php');
 $db = new Database($config['database']);
 
 $currentUserId = 1;
@@ -17,4 +17,6 @@ authorize($product['user_id'] === $currentUserId);
 
 
 
-require 'views/product.view.php';
+view('product.view.php', [
+    'product' => $product
+]);

@@ -1,5 +1,5 @@
 <section id="header">
-    <a href="/Cara/"><img src="./img/products/logo.png" alt=""></a>
+    <a href="/Cara/"><img src="../img/products/logo.png" alt=""></a>
     <div>
         <ul id="navbar">
             <li><a href="/Cara/" class="<?= urlIs('/Cara/') ? 'active' : '' ?>">Home</a></li>

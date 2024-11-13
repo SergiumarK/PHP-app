@@ -4,4 +4,6 @@ $heading = 'Cart';
 
 
 
-require 'views/cart.view.php';
+view('cart.view.php', [
+    'heading' => 'Cart'
+]);

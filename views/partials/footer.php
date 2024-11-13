@@ -1,6 +1,6 @@
 <footer class="section-p1">
         <div class="col">
-            <img src="./img/products/logo.png" alt="">
+            <img src="../img/products/logo.png" alt="">
             <h4>Contact</h4>
             <p><strong>Address:</strong> Lorem ipsum dolor sit amet. Lorem, ipsum.</p>
             <p><strong>Phone:</strong> +123 456 345 / (+234) 345 678 567.</p>

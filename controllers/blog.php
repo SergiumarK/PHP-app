@@ -4,4 +4,6 @@ $heading = 'Our Blog';
 
 
 
-require 'views/blog.view.php';
+view('blog.view.php', [
+    'heading' => 'Our Blog'
+]);

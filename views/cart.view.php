@@ -77,3 +77,5 @@ require 'partials/banner.php'
 </section>
 
 <?php require 'partials/footer.php' ?>
+
+<script src="/script.js"></script>
