@@ -8,7 +8,7 @@ $products = $db->query('select * from products where user_id = 1')->get();
 
 
 
-view('products.view.php', [
+view('prod/index.view.php', [
     'products' => $products,
     'heading' => 'Our Products'
 ]);

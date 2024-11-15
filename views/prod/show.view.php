@@ -1,15 +1,13 @@
-<?php require 'partials/head.php' ?>
+<?php require base_path('views/partials/head.php') ?>
 
-<?php require 'partials/nav.php' ?>
+<?php require base_path('views/partials/nav.php') ?>
 
-<?php
-require 'partials/banner.php';
-?>
+<?php require base_path('views/partials/banner.php')?>
 
     <section id="prodetails" class="section-p1">
         <div class="single-pro-image">
-            <img src="<?= $product['img'] ?>" width="100%" id="MainImg" alt="">
-        
+            <img src="/uploads/<?= $product['img'] ?>" width="100%" id="MainImg" alt="">
+            
             <div class="small-img-group">
                 <div class="small-img-col">
                     <img src="/img/products/f1.jpg" width="100%" class="small-img" alt="">
@@ -40,7 +38,7 @@ require 'partials/banner.php';
             <input type="number" value="1">
             <button class="normal">Add to cart</button>
             <h4>Product Details</h4>
-            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis at deserunt vero, repellat earum cupiditate ea. Praesentium corporis similique ad nisi unde necessitatibus ducimus ex harum aperiam magni, voluptates quae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolor mollitia eum officia ipsam ea quia nobis, laborum, suscipit cupiditate voluptate. Tempora suscipit, qui voluptates porro eveniet saepe veritatis itaque!</span>
+            <span><?= $product['product_details'] ?></span>
         </div>
     </section>
 
@@ -127,7 +125,7 @@ require 'partials/banner.php';
     </section>
 
     <!-- footer -->
-    <?php require 'partials/footer.php' ?>
+    <?php require base_path('views/partials/footer.php')?>
         
     <script src="/script.js"></script>
 </body>

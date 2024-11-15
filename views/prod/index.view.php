@@ -1,17 +1,15 @@
-<?php require 'partials/head.php' ?>
+<?php require base_path('views/partials/head.php') ?>
 
-<?php require 'partials/nav.php' ?>
+<?php require base_path('views/partials/nav.php') ?>
 
-<?php
-require 'partials/banner.php'
-    ?>
+<?php require base_path('views/partials/banner.php')?>
 
 <section id="product1" class="section-p1">
     <div class="pro-container">
     <?php foreach ($products as $product): ?>
         <div class="pro" onclick="window.location.href=''">
             <a href="/Cara/product?id=<?= $product['id'] ?>">
-                <img src="<?= $product['img'] ?>" alt="">
+            <img src="/public/uploads/<?= $product['img'] ?>" alt="">
             </a>
             <div class="des">
                 <span><?= $product['title'] ?></span>
@@ -288,6 +286,6 @@ require 'partials/banner.php'
     </div>
 </section>
 
-<?php require 'partials/footer.php' ?>
+<?php require base_path('views/partials/footer.php' )?>
 
 <script src="/script.js"></script>

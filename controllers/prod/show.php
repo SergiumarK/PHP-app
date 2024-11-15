@@ -17,6 +17,6 @@ authorize($product['user_id'] === $currentUserId);
 
 
 
-view('product.view.php', [
+view('prod/show.view.php', [
     'product' => $product
 ]);
