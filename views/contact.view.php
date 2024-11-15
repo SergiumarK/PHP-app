@@ -81,4 +81,3 @@ require 'partials/banner.php'
 
 <?php require 'partials/footer.php' ?>
 
-<script src="/script.js"></script>

@@ -1,6 +1,6 @@
 <footer class="section-p1">
         <div class="col">
-            <img src="../img/products/logo.png" alt="">
+            <img src="/img/products/logo.png" alt="">
             <h4>Contact</h4>
             <p><strong>Address:</strong> Lorem ipsum dolor sit amet. Lorem, ipsum.</p>
             <p><strong>Phone:</strong> +123 456 345 / (+234) 345 678 567.</p>
@@ -38,16 +38,16 @@
             <h4>Install App</h4>
             <p>From App Store or Google Play</p>
             <div class="row">
-                <img src="./img/play/app.jpg" alt="">
-                <img src="./img/play/play.jpg" alt="">
+                <img src="/img/play/app.jpg" alt="">
+                <img src="/img/play/play.jpg" alt="">
             </div>
             <p>Secure payment Gateways</p>
-            <img src="./img/play/pay.png" alt="">
+            <img src="/img/play/pay.png" alt="">
         </div>
     </footer>
     
     <p class="copyright">Lorem ipsum dolor sit amet consectetur.</p>
         
-    <script src="./script.js"></script>
+    <script src="/script.js"></script>
 </body>
 </html>

@@ -29,4 +29,3 @@
 <!-- footer -->
 <?php require base_path('views/partials/footer.php' )?>
 
-<script src="/script.js"></script>

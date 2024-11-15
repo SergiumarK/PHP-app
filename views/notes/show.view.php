@@ -22,7 +22,7 @@
             <br>
             <br>
             <form action="" method="POST">
-                
+                <input type="hidden" name="_method" value="DELETE">
                 <input type="hidden" name="id" value="<?= $note["id"] ?>">
                 <button class="b-delete" type="submit">Delete</button>
             </form>
@@ -33,4 +33,3 @@
 <!-- footer -->
 <?php require base_path('views/partials/footer.php') ?>
 
-<script src="/script.js"></script>

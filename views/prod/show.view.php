@@ -7,7 +7,7 @@
     <section id="prodetails" class="section-p1">
         <div class="single-pro-image">
             <img src="/uploads/<?= $product['img'] ?>" width="100%" id="MainImg" alt="">
-            
+
             <div class="small-img-group">
                 <div class="small-img-col">
                     <img src="/img/products/f1.jpg" width="100%" class="small-img" alt="">
@@ -127,6 +127,6 @@
     <!-- footer -->
     <?php require base_path('views/partials/footer.php')?>
         
-    <script src="/script.js"></script>
+    
 </body>
 </html>
