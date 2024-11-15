@@ -7,7 +7,7 @@
 
 
 <section id="form-details">
-    <form method="POST">
+    <form method="POST" action="/Cara/notes">
         <label for="body">Description</label>
         <br>
         <div>

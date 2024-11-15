@@ -32,7 +32,10 @@ $router->get('/Cara/contact', 'controllers/contact.php');
 
 $router->get('/Cara/notes', 'controllers/notes/index.php');
 $router->get('/Cara/note', 'controllers/notes/show.php');
+$router->delete('/Cara/note', 'controllers/notes/destroy.php');
+
 $router->get('/Cara/notes/create', 'controllers/notes/create.php');
+$router->post('/Cara/notes', 'controllers/notes/store.php');
 
 $router->get('/Cara/products', 'controllers/prod/index.php');
 $router->get('/Cara/product', 'controllers/prod/show.php');
