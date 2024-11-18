@@ -25,12 +25,8 @@
                 <input type="hidden" name="_method" value="DELETE">
                 <input type="hidden" name="id" value="<?= $note["id"] ?>">
                 <button class="b-delete" type="submit">Delete</button>
+                <button class="b-delete" onclick="window.location.href='/Cara/note/edit?id=<?= $note['id'] ?>'" type="button">Edit</button>
             </form>
-            <br>
-            <br>
-            <h3>
-                <a href="/Cara/note/edit?id=<?= $note['id'] ?>">Edit -></a>
-            </h3>
         </div>
     </div>
 </section>

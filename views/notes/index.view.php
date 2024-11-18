@@ -24,7 +24,7 @@
 
             <!-- <button onclick="window.location.href='notes/create'">Create note</button> -->
             <h3>
-                <a href="notes/create">Create note -></a>
+                <button class="b-delete" onclick="window.location.href='notes/create'" type="button">Create Note</button>
             </h3>
         </div>
     </div>

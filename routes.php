@@ -43,3 +43,6 @@ $router->post('/Cara/notes', 'controllers/notes/store.php');
 $router->get('/Cara/products', 'controllers/prod/index.php');
 $router->get('/Cara/product', 'controllers/prod/show.php');
 $router->get('/Cara/products/create', 'controllers/prod/create.php');
+
+$router->get('/Cara/register', 'controllers/registration/create.php');
+$router->post('/Cara/register', 'controllers/registration/store.php');

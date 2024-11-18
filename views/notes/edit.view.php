@@ -14,15 +14,18 @@
         <label for="body">Description</label>
         <br>
         <div>
-            <textarea name="body" id="body" placeholder="New Note..."><?= $note['body'] ?></textarea>
+            <textarea 
+                name="body" 
+                id="body" 
+                placeholder="New Note..."
+                ><?= $note['body'] ?>
+            </textarea>
 
             <?php if (isset($errors['body'])): ?>
                 <p><?= $errors['body'] ?></p>
             <?php endif; ?>
         </div>
-        <div class="ec-btn">
-            <br>
-
+        <div>
             <button class="normal" type="button" onclick="window.location.href='/Cara/notes'">Cancel</button>
 
             <button class="normal" type="submit">Update</button>
