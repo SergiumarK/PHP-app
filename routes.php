@@ -30,7 +30,7 @@ $router->get('/Cara/blog', 'controllers/blog.php',);
 $router->get('/Cara/cart', 'controllers/cart.php');
 $router->get('/Cara/contact', 'controllers/contact.php');
 
-$router->get('/Cara/notes', 'controllers/notes/index.php');
+$router->get('/Cara/notes', 'controllers/notes/index.php')->only('auth');
 $router->get('/Cara/note', 'controllers/notes/show.php');
 $router->delete('/Cara/note', 'controllers/notes/destroy.php');
 
@@ -44,5 +44,5 @@ $router->get('/Cara/products', 'controllers/prod/index.php');
 $router->get('/Cara/product', 'controllers/prod/show.php');
 $router->get('/Cara/products/create', 'controllers/prod/create.php');
 
-$router->get('/Cara/register', 'controllers/registration/create.php');
+$router->get('/Cara/register', 'controllers/registration/create.php')->only('guest');
 $router->post('/Cara/register', 'controllers/registration/store.php');
