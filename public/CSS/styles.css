@@ -5,6 +5,17 @@
     font-family: sans-serif;
 }
 
+.ec-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.normal-cancel {
+    align-items: flex-start;
+}
+
 .not-found {
     display: inline-block;
     margin-left: 50px;

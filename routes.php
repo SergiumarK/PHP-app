@@ -34,6 +34,9 @@ $router->get('/Cara/notes', 'controllers/notes/index.php');
 $router->get('/Cara/note', 'controllers/notes/show.php');
 $router->delete('/Cara/note', 'controllers/notes/destroy.php');
 
+$router->get('/Cara/note/edit', 'controllers/notes/edit.php');
+$router->patch('/Cara/note', 'controllers/notes/update.php');
+
 $router->get('/Cara/notes/create', 'controllers/notes/create.php');
 $router->post('/Cara/notes', 'controllers/notes/store.php');
 

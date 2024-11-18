@@ -26,6 +26,11 @@
                 <input type="hidden" name="id" value="<?= $note["id"] ?>">
                 <button class="b-delete" type="submit">Delete</button>
             </form>
+            <br>
+            <br>
+            <h3>
+                <a href="/Cara/note/edit?id=<?= $note['id'] ?>">Edit -></a>
+            </h3>
         </div>
     </div>
 </section>
