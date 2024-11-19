@@ -2,6 +2,7 @@
 <?php require 'partials/nav.php' ?>
 
 <section id="hero">
+    <h4>Hello, <?= $_SESSION['user']['email'] ?? 'Guest' ?>. Welcome to the main page</h4>
     <h4>Trade-in-offer</h4>
     <h2>Super value deals</h2>
     <h1>On all products</h1>

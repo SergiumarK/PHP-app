@@ -12,13 +12,12 @@
                         class="fa-solid fa-bag-shopping"></i></a></li>
             <a href="#"><i id="close" class="fa-solid fa-x"></i></a>
 
-            <button>
-                <?php if ($_SESSION['user'] ?? false): ?>
-                    user
+            <li id="lg-bag"><?php if ($_SESSION['user'] ?? false): ?>
+                    <a href="#"><i class="fa-solid fa-user"></i></a>
                 <?php else: ?>
-                    <a class="active" href="/Cara/register">Register</a>
+                    <a href="/Cara/register" class="<?= urlIs('/Cara/register') ? 'active' : '' ?>">Register</a>
                 <?php endif; ?>
-            </button>
+            </li>
         </ul>
     </div>
     <div id="mobile">
