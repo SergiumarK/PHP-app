@@ -6,7 +6,8 @@ class Authenticator
 {
     public function attempt($email, $password)
     {
-        $user = App::resolve(Database::class)->query('SELECT * FROM users WHERE email = :email', [
+        $user = App::resolve(Database::class)
+            ->query('select * from users where email = :email', [
             'email' => $email
         ])->find();
 
@@ -34,12 +35,6 @@ class Authenticator
 
     public function logout()
     {
-        $_SESSION = [];
-
-        session_destroy();
-
-        $params = session_get_cookie_params();
-
-        setcookie('PHPSESSID', '', time() - 3600, $params['path'], $params['domain'], $params['secure'], $params['HTTPonly']);
+        Session::destroy();
     }
 }
