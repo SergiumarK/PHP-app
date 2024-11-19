@@ -7,7 +7,7 @@
 
 
 <section>
-    <form action="/Cara/sessions" method="post">
+    <form action="/Cara/session" method="post">
 
         <div class="container1">
             <h2>Log In!</h2>
