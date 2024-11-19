@@ -18,6 +18,13 @@
                     <a href="/Cara/register" class="<?= urlIs('/Cara/register') ? 'active' : '' ?>">Register</a>
                 <?php endif; ?>
             </li>
+            <li id="lg-bag"><?php if ($_SESSION['user'] ?? false): ?>
+                    <a href="#"><i class="fa-solid fa-user"></i></a>
+                <?php else: ?>
+                    <a href="/Cara/login" class="<?= urlIs('/Cara/login') ? 'active' : '' ?>">Log In</a>
+
+                <?php endif; ?>
+            </li>
         </ul>
     </div>
     <div id="mobile">

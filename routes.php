@@ -46,3 +46,6 @@ $router->get('/Cara/products/create', 'controllers/prod/create.php');
 
 $router->get('/Cara/register', 'controllers/registration/create.php')->only('guest');
 $router->post('/Cara/register', 'controllers/registration/store.php');
+
+$router->get('/Cara/login', 'controllers/sessions/create.php')->only('guest');
+$router->post('/Cara/sessions', 'controllers/sessions/store.php')->only('guest');
