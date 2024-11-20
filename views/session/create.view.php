@@ -15,10 +15,15 @@
             <br>
             <div>
                 <label for="email"><b>Email</b></label>
-                <input type="email" placeholder="Enter Email" name="email" required>
-                <?php if (isset($errors['email'])): ?>
-                    <p><?= $errors['email'] ?></p>
-                <?php endif; ?>
+                <input 
+                id="email"
+                type="email"
+                autocomplete="email" 
+                placeholder="Enter Email" 
+                name="email" 
+                required
+                value="<?=old('email') ?>">
+                
             </div>
 
             <div>
