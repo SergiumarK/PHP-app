@@ -1,0 +1,16 @@
+{
+    "name": "sergiu/cara",
+    "authors": [
+        {
+            "name": "SergiumarK",
+            "email": "s.marcocimd@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "Http\\": "Http/"
+        }
+    }
+}

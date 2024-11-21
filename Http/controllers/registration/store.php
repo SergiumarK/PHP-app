@@ -1,9 +1,11 @@
 <?php
+
 use Core\App;
+use Core\Authenticator;
 use Core\Database;
 use Core\Validator;
 
-$db = App::resolve(Database::class);  
+$db = App::resolve(Database::class);
 
 $email = $_POST['email'];
 $password = $_POST['password'];
@@ -18,7 +20,7 @@ if (!Validator::string($password, 7, 255)) {
 }
 
 if (! empty($errors)) {
-    return view('registration/create.view.php', [
+    return view('/Cara/registration/create.view.php', [
         'errors' => $errors
     ]);
 }
@@ -28,17 +30,15 @@ $user = $db->query('select * from users where email = :email', [
 ])->find();
 
 if ($user) {
-    header('location: /Cara/');
+    header('location: /Core/');
     exit();
 } else {
-    $db->query('INSERT INTO users(email, password) VALUES(:email, :password)', [
+    $user = $db->query('INSERT INTO users(email, password) VALUES(:email, :password)', [
         'email' => $email,
         'password' => password_hash($password, PASSWORD_BCRYPT)
     ]);
-    
-    login([
-        'email' => $email
-    ]);
+
+    (new Authenticator)->login(['email' => $email]);
 
     header('location: /Cara/');
     exit();

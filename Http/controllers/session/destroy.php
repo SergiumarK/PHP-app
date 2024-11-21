@@ -1,7 +1,8 @@
-<?php 
+<?php
 
-logout();
+use Core\Authenticator;
 
-header("Location: /Cara/");
+(new Authenticator)->logout();
 
+header('location: /Cara/');
 exit();
