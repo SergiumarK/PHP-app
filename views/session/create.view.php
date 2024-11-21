@@ -28,10 +28,15 @@
 
             <div>
                 <label for="password"><b>Password</b></label>
-                <input type="password" placeholder="Enter Password" name="password" required>
-                <?php if (isset($errors['password'])): ?>
-                    <p><?= $errors['password'] ?></p>
-                <?php endif; ?>
+                <input 
+                id="password"
+                type="password" 
+                placeholder="Enter Password" 
+                name="password" 
+                required
+                autocomplete="current-password"
+                >
+                
             </div>
 
 

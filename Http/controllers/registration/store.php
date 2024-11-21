@@ -37,7 +37,7 @@ if ($user) {
     ]);
     
     login([
-        'emial' => $email
+        'email' => $email
     ]);
 
     header('location: /Cara/');
